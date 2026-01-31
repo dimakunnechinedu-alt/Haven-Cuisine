@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    scroll-behavior: smooth;
+    text-decoration: none;
+}
+#header{
+    width: 100%;
+    background-color: #0F172B;
+}
+#navcontainer{
+    width: 90%;
+    background-color: #0F172B;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+#div-con1{
+    width: 35%;
+    background-color: #0F172B;
+    margin: 1%;
+    padding: 1%;
+}
+#foodhaven {
+    font-size: 30px;
+    font-style: italic;
+    text-decoration: none;
+    color: orange;
+}
+#div-con2{
+    width: 50%;
+    background-color: #0F172B;
+    margin: 1px;
+    padding: 1px;
+    display: flex;
+    
+}
+
+.div-conbox2 a{
+    text-decoration: none;
+    color: white;
+}
+.div-conbox2 a:hover{
+    color: orange;
+}
+#div-con3{
+    width: 18%;
+    background-color: orange;
+    margin: 1%;
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    
+}
+#div-con3 a{
+    text-decoration: none;
+    color: white;
+}
+.div-conbox2{
+    width: 18%;
+    background-color: #0F172B;
+    margin: 1%;
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* #sec-container{
+    width: 100%;
+    background-color: #0F172B; 
+
+}
+#art-containerr{
+    width: 90%;
+    background-color: #0F172B; 
+    margin: auto;
+    display: flex;
+}
+#sec1-con{
+    width: 48%;
+    background-color: #0F172B;
+    padding: 3%;
+    margin: 1%;
+    
+}
+#food-home{
+    font-size: 65px;
+    font-weight: bold;
+    color: white;
+}
+#serves{
+    color: white;
+}
+#sec1-con1{
+    width: 48%;
+    background-color: orange;
+    padding: 3%;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#sec1-con1 a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+#image{
+    width: 100%;
+    transition: transform 12s linear;
+    cursor: pointer;
+}
+#image:hover{
+    transform: rotate(360deg);
+}
+#sec1-con2{
+    width: 48%;
+    background-color: #0F172B;
+    padding: 3%;
+    margin: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+   
+ */
