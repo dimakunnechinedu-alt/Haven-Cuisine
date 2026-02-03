@@ -6,9 +6,77 @@
     scroll-behavior: smooth;
     text-decoration: none;
 }
+#dropdown{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(18, 17, 16,0.65);
+    display: none;
+    position: fixed;
+    z-index: +20;
+    backdrop-filter: blur(5px);
+}
+#nav-moble{
+    width: 30%;
+    height: 100%;
+    top: 15%;
+    right: 10%;
+    background-color:rgb(150, 143, 129);
+    padding: 2%;
+    position: absolute;
+    border-radius: 20px;  
+}
+.nav_li{
+    width: 80%;
+    /* background-color: rgb(59, 58, 50); */
+    margin: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    padding: 2%;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+}
+#existicon{
+    width: 30px;
+    height: 30px;
+    background-color: #0F172B;
+    top: 15%;
+    right: 10%;
+    position: absolute;
+    color: red;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 30;
+    border-radius: 20px;
+
+}
+#burger{
+    width: 10%;
+    background-color: #0F172B;
+    display: none;
+    justify-items: center;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 10%;
+}
+#burgerimage{
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 35%;
+}
 #header{
     width: 100%;
     background-color: #0F172B;
+    position: sticky;
+    z-index: 30;
+    top: 0;
 }
 #navcontainer{
     width: 90%;
@@ -59,6 +127,11 @@
 #div-con3 a{
     text-decoration: none;
     color: white;
+    font-size: 20px;
+    
+}
+#book{
+    
 }
 .div-conbox2{
     width: 18%;
@@ -69,33 +142,38 @@
     justify-content: center;
     align-items: center;
 }
-/* #sec-container{
+#sec1{
     width: 100%;
-    background-color: #0F172B; 
-
+    background-color: #0F172B;
 }
-#art-containerr{
+#art1-con{
     width: 90%;
-    background-color: #0F172B; 
+    background-color: #0F172B;
     margin: auto;
     display: flex;
 }
-#sec1-con{
+#divbox-con1{
     width: 48%;
     background-color: #0F172B;
-    padding: 3%;
     margin: 1%;
-    
+    padding: 3%;
 }
-#food-home{
-    font-size: 65px;
+#divbox-con2{
+    width: 48%;
+    background-color: #0F172B;
+    margin: 1%;
+    padding: 3%;
+}
+#delicious{
+    font-size: 70px;
     font-weight: bold;
     color: white;
 }
-#serves{
+#lorem{
     color: white;
+    font-size: 20px;
 }
-#sec1-con1{
+#sec1sub{
     width: 48%;
     background-color: orange;
     padding: 3%;
@@ -105,28 +183,353 @@
     align-items: center;
     
 }
-#sec1-con1 a{
+#sec1sub a{
     color: white;
     text-decoration: none;
     font-size: 20px;
 }
-#image{
+#image1{
     width: 100%;
     transition: transform 12s linear;
     cursor: pointer;
 }
-#image:hover{
+#image1:hover{
     transform: rotate(360deg);
 }
-#sec1-con2{
-    width: 48%;
-    background-color: #0F172B;
-    padding: 3%;
-    margin: 1%;
+#sec2{
+    width: 100%;
+    background-color: whitesmoke;
+}
+#sec2-inner{
+    width: 90%;
+    background-color: whitesmoke;
+    margin: auto;
     display: flex;
+    
+}
+.divbox1{
+    width: 23%;
+    background-color: whitesmoke;
+    margin: 1%;
+    padding: 2%;
+     box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+.divbox1:hover{
+    background-color: orange;
+     color: white;
+}
+.foods{
+    font-weight: bold;
+}
+.imagebooking{
+    width: 20%;
+    border-radius: 30%;
+}
+#sec3-inner{
+    width: 100%;
+    background-color: whitesmoke;
+}
+#art3-inner{
+    width: 90%;
+    background-color: whitesmoke;
+    margin: auto;
+    display: flex;
+}
+#div3box1{
+    width: 48%;
+    background-color: whitesmoke;
+    margin: 1px;
+    padding: 3%;
+    display: flex;
+    flex-wrap: wrap;
+}
+#div3box2{
+    width: 48%;
+    background-color: whitesmoke;
+    margin: 1px;
+    padding: 3%;
+}
+.images-box3{
+    width: 48%;
+    background-color: whitesmoke;
+    margin: 1%;
+    padding: 3px;
+}
+.imagebox{
+    width: 100%;
+    object-fit: cover;
+}
+.imagebox1{
+    width: 100%;
+}
+#about{
+    color: orange;
+    font-style: italic;
+}
+#welcome{
+    font-size: 30px;
+    font-weight: bold;
+}
+.foodie{
+    font-size: 18px;
+}
+#sec4{
+    width: 100%;
+    background-color: whitesmoke;
+}
+#sec4-inner{
+    width: 90%;
+    background-color: whitesmoke;
+    margin: auto;
+    
+}
+#sec4box1{
+    width: 98%;
+    background-color: whitesmoke;
+    
+    padding: 3%;
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
+#sec4subdiv1{
+    width: 48%;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#sec4subdiv2{
+    width: 78%;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#food{
+    font-style: italic;
+}
+#popular{
+    font-weight: bold;
+}
+
+#sec5{
+    width: 100%;
+    background-color: whitesmoke;
+}
+#sec5-inner{
+    width: 90%;
+    background-color: whitesmoke;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+#Special{
+    width: 98%;
+    padding: 5%;
+    margin: 1%;
+}
+
+
+.sec5box2{
+    width: 48%;
+    background-color: whitesmoke;
+    padding: 2px;
+    margin: 1px;
+    display: flex;
+}
+.sec5box1{
+    width: 28%;
+     background-color: whitesmoke;
+    padding: 2%;
+    margin: 1%;
+}
+.sec5box11{
+    width: 88%;
+     background-color: whitesmoke;
+    padding: 2%;
+    margin: 1%;
+}
+#sec5box111{
+    width: 98%;
+     background-color: whitesmoke;
    
- */
+    margin: 1%;
+    display: flex;
+    justify-content: space-between;
+    
+}
+#sec5box112{
+    width: 98%;
+     background-color: whitesmoke;
+    
+    margin: 1%;
+}
+#sec5box1111{
+    width: 78%;
+     background-color: whitesmoke;
+    padding: 1%;
+    margin: 1%;
+}
+#sec5box1112{
+     width: 18%;
+     background-color: whitesmoke;
+    padding: 1%;
+    margin: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: orange;
+}
+.chicken{
+    font-weight: bold;
+    font-size: 12px;
+
+}.image-menu{
+    width: 100%;
+}
+#sec6{
+    width: 100%;
+    background-color: #0F172B;
+   
+}
+#sec6-inner{
+    width: 60%;
+    background-color: #0F172B;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+#sec6box{
+    width: 90%;
+    background-color: #0F172B;
+    /* padding: 1%; */
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.sec6box{
+    width: 98%;
+    background-color: #0F172B;
+    padding: 1%;
+    /* margin: 1%; */
+    
+}
+.sec6box1{
+    width: 48%;
+    background-color: #0F172B;
+    padding: 1%;
+    margin: 1%;
+}
+#booking{
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+}
+#Reservation{
+    font-style: italic;
+    color: orange;
+}
+#sec6box1{
+    width: 98%;
+    background-color: #0F172B;
+    margin: auto;
+    
+}
+input{
+    width: 100%;
+    padding: 2%;
+}
+textarea{
+    width: 98%;
+    margin: 7px;
+    padding: 1px;
+}
+#name{
+    width: 100%;
+    padding: 3%;
+}
+button{
+    width: 48%;
+    color: white;
+    background-color: orange;
+    padding: 2%;
+    /* margin: 2px; */
+    margin: auto;
+    border-radius: 5px;
+    border: none;
+}
+#sec7{
+    width: 100%;
+    background-color: #0F172B;
+}
+#sec7-inner{
+    width: 90%;
+    background-color: #0F172B;
+    margin: auto;
+    display: flex;
+}
+.sec7box{
+    width:23% ;
+    background-color: #0F172B;
+    margin: 1%;
+    padding: 3%;
+}
+#sec7box{
+    width:98% ;
+    background-color: #0F172B;
+    margin: 1%;
+    padding: 2%;
+    color: orange;
+    font-style: italic;
+    font-weight: bold;
+}
+.sec7box1{
+    width: 98%;
+    background-color: #0F172B;
+    margin: 1%;
+    padding: 2%;
+    color: white;
+}
+#sec7box1{
+    width: 98%;
+    background-color: #0F172B;
+    padding: 2%;
+    margin: 1%;
+    
+    
+   
+}
+#sec7box8{
+    width: 98%;
+    background-color: #0F172B;
+    margin: 1%;
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+#emaill{
+    width: 98%;
+}
+
+#sign{
+    width: 68%;
+    background-color: orange;
+    padding: 1%;
+    margin: 1%;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+   
+}

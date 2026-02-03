@@ -3,43 +3,337 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/copper.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/mediaquerry.css">
+    <title>MY FOODHAVEN</title>
 </head>
 <body>
+
+     <section id="dropdown">
+        <div id="existicon">X</div>
+        <ul id="nav-moble">
+             <div><a class="nav_li" href="#sec1">Home</a></div>
+             <div><a class="nav_li" href="#div3box2">About</a></div>
+             <div><a class="nav_li" href="#sec4">Menu</a></div>
+             <div><a class="nav_li" href="#sec2">Service</a></div>
+             <div><a class="nav_li" href="#sec7">Contact</a></div>
+             
+     </section>
 
     <header id="header">
       <nav id="navcontainer">
         <div id="div-con1"><a id="foodhaven" href="">Haven Cuisine</a></div>
         <div id="div-con2">
             <div class="div-conbox2"><a href="#sec1">Home</a></div>
-            <div class="div-conbox2"> <a href="#section_badoo">About</a></div>
+            <div class="div-conbox2"> <a href="#div3box2">About</a></div>
             <div class="div-conbox2"><a href="#sec2">Service</a></div>
-            <div class="div-conbox2"><a href="#sec5">Menu</a></div>
+            <div class="div-conbox2"><a href="#sec4">Menu</a></div>
             <div class="div-conbox2"><a href="#sec7">Contact</a></div>
           </div>
           <div id="div-con3">
-          <a href="#sec6"><h6>BOOK A TABLE</h6></a>
+          <a id="book" href="#sec6"><h6>BOOK A TABLE</h6></a>
         </div>
-        <main>
-             <!-- <section id="sec-container" >
-        <article id="art-container">
-            <div id="sec1-con" >
-                <h1 id="food-home">Enjoy Our Delicous Meal</h1>
-                <p id="serves">Experience the perfect blend of taste,quality and comfort.at Foodie Haven,we serve freshly prepared meals made with premium ingredients and crafted by skiiled chefs to satisfy every craving.</p><br>
-
-                <div id="sec1-con1">
-                    <a href="#sec6">BOOK A TABLE</a>
-                </div>
+        <div id="burger">
+                <img id="burgerimage" src="img/menu-burger.png" alt="">
             </div>
-            <div id="sec1-con2">
-                <img id="image" src="img/hero.png" alt="">
-            </div>
-        </article>
-    </section> -->
+        </nav>
+        </header>
+        
         </main>
-    
+            <section id="sec1" data-aos="flip-left"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000">
+                <article id="art1-con">
+                    <div id="divbox-con1">
+                         <h1 id="delicious">Enjoy Our Delicious Meal</h1>
+                         <p id="lorem">Experience the perfect blend of taste,quality and comfort.at Haven Cuisine,we serve freshly prepared meals made with premium ingredients and crafted by skiiled chefs to satisfy every craving.</p><br><br>
 
+                         <div id="sec1sub">
+                          <a href="">BOOK A TABLE</a>
+                        </div>
+
+                    </div>
+                    <div id="divbox-con2">
+                        <img  id="image1" src="img/hero.png" alt="">
+                    </div>
+                </article>
+            </section>
+            <section id="sec2" data-aos="fade-up" >
+        <article id="sec2-inner">
+            <div class="divbox1">
+              <img class="imagebooking" src="img/chef.jpeg" alt="">
+                <h4 class="foods">Master Chefs</h4>
+                <small>Our kitchen is led by experienced chefs who are passionate about craft delicious meals using time-tested technique and modern flavor .</small>
+            </div>
+            <div class="divbox1">
+              <img class="imagebooking" src="img/good.jpeg" alt="">
+                    <H4 class="foods">Quality Food</H4>
+                    <small class="small">We use only fresh,high- quality ingredurnts to ensure great teast and consistent quality.From local produce to premium spices,every meal is made to satisfy.</small>
+            </div>
+            <div class="divbox1">
+              <img class="imagebooking" src="img/online.jpeg" alt="">
+                <h4 class="foods">Online Order</h4>
+                <small class="small">Enjoy your favority meals from the comfort of your home.Our easy online ordering system allow you to place orders system allows you to place orders quickly and conveniently anytime.</small>
+            </div>
+            <div class="divbox1">
+              <img class="imagebooking" src="img/247.jpeg" alt="">
+                <h4 class="foods">24/7</h4>
+                <small class="small">We're always here for you.Whether it's early morning or late night,our restaurant is ready ti serve you with delicious and excellent service.</small>
+            </div>
+            
+        </article>
+     </section>
+        <section id="sec3-inner" data-aos="fade-up">
+            <article id="art3-inner">
+                <div id="div3box1">
+                    <div class="images-box3">
+                    <img class="imagebox" src="img/WhatsApp Image 2026-01-22 at 3.44.32 AM (3) - Copy - Copy.jpeg" id="holy_hand" alt="">
+                </div>
+                <div class="images-box3">
+                  <img class="imagebox" src="img/WhatsApp Image 2026-01-22 at 3.44.33 AM (3) - Copy - Copy.jpeg"id ="holy-hand3">
+                </div>
+                <div class="images-box3">
+                  <img class="imagebox1" src="img/WhatsApp Image 2026-01-22 at 3.44.33 AM (6) - Copy.jpeg" id="holy-hand1" alt="">
+                </div>
+                <div class="images-box3">
+                  <img class="imagebox1" src="img/WhatsApp Image 2026-01-22 at 3.44.33 AM - Copy - Copy.jpeg" id="holy-hand2" alt="">
+                </div>
+                </div>
+                <div id="div3box2">
+                  <h4 id="about">About Us</h4>
+                  <h2 id="welcome">Welcome To Haven Cuisine</h2><br>
+                  <p class="foodie">Haven Cuisine is a modern restaurant dedicated to serving mouth-watering dishes in a warm and welcoming environment.We combine great taste,quality ingredients,and excellentcustomer service to create a memorable dining experience for every guest</p><br>
+                  <p class="foodie">Whether you're dining in,ordering online,or grabbing a quick meal,Haven Cuisine is your go-to place satisfying and flavorful food.</p>
+                </div>
+            </article>
+        </section>
+
+         <section id="sec4" data-aos="fade-down">
+      <article id="sec4-inner">
+        <div id="sec4box1">
+          <div id="sec4subdiv1">
+            <h4 id="food">Food Menu</h4>
+          </div>
+          <div  id="sec4subdiv2">
+            <h1 id="popular">Most Popular Items</h1>
+          </div>
+        </div>
+        
+      
+     <section id="sec5" data-aos="flip-up">
+      <article id="sec5-inner">
+         <div class="sec5box2">
+          <div class="sec5box1">
+            <img class="image-menu" src="img/garri n okro.jpeg" alt="">
+          </div>
+          <div class="sec5box11">
+            <div id="sec5box111">
+              <div id="sec5box1111">
+                <span class="chicken">Okra soup with garri</span>
+              </div>
+              <div id="sec5box1112" >N3500</div>
+            </div>
+            <div id="sec5box112">
+              <small>Popular okra soup served with garri </small>
+            </div>
+          </div>
+         </div>
+        <div class="sec5box2">
+          <div class="sec5box1">
+            <img class="image-menu" src="img/garri n ora.jpeg" alt="">
+          </div>
+          <div class="sec5box11">
+            <div id="sec5box111">
+              <div id="sec5box1111">
+                <span class="chicken">Oha Soup and Garri</span>
+              </div>
+              <div id="sec5box1112" >N4500</div>
+            </div>
+            <div id="sec5box112">
+              <small>Nigeria food,Oha soup with beef </small>
+            </div>
+          </div>
+        </div>
+        <div class="sec5box2">
+          <div class="sec5box1">
+            <img class="image-menu" src="img/amala.jpeg" alt="">
+          </div>
+          <div class="sec5box11">
+            <div id="sec5box111">
+              <div id="sec5box1111">
+                <span class="chicken">Amala and Ewedu</span>
+              </div>
+              <div id="sec5box1112" >N5000</div>
+            </div>
+            <div id="sec5box112">
+              <small>Amala with Ewedu and assorted </small>
+            </div>
+          </div>
+        </div>
+        <div class="sec5box2">
+          <div class="sec5box1">
+            <img class="image-menu" src="img/garri local pla.jpeg" alt="">
+          </div>
+          <div class="sec5box11">
+            <div id="sec5box111">
+              <div id="sec5box1111">
+                <span class="chicken">Afang soup</span>
+              </div>
+              <div id="sec5box1112" >N6500</div>
+            </div>
+            <div id="sec5box112">
+              <small>Efik Afang soup </small>
+            </div>
+          </div>
+        </div>
+        <div class="sec5box2">
+          <div class="sec5box1">
+            <img class="image-menu" src="img/beans pla.jpeg" alt="">
+          </div>
+          <div class="sec5box11">
+            <div id="sec5box111">
+              <div id="sec5box1111">
+                <span class="chicken"> Brown Beans Pottage </span>
+              </div>
+              <div id="sec5box1112" >N1500</div>
+            </div>
+            <div id="sec5box112">
+              <small>Plantain and Beans</small>
+            </div>
+          </div>
+        </div>
+        <div class="sec5box2">
+          <div class="sec5box1">
+            <img class="image-menu" src="img/pounded yam.jpeg" alt="">
+          </div>
+          <div class="sec5box11">
+            <div id="sec5box111">
+              <div id="sec5box1111">
+                <span class="chicken">Abak soup with fufu </span>
+              </div>
+              <div id="sec5box1112" >N5000</div>
+            </div>
+            <div id="sec5box112">
+              <small>Abak soup with fufu</small>
+            </div>
+          </div>
+        </div>
+         <div class="sec5box2">
+          <div class="sec5box1">
+            <img class="image-menu" src="img/bread beans.jpeg" alt="">
+          </div>
+          <div class="sec5box11">
+            <div id="sec5box111">
+              <div id="sec5box1111">
+                <span class="chicken">Bread & Beans</span>
+              </div>
+              <div id="sec5box1112" >N1500</div>
+            </div>
+            <div id="sec5box112">
+              <small>Bread & Beans </small>
+            </div>
+          </div>
+         </div>
+        <div class="sec5box2">
+          <div class="sec5box1">
+            <img class="image-menu" src="img/fred rice.jpeg" alt="">
+          </div>
+          <div class="sec5box11">
+            <div id="sec5box111">
+              <div id="sec5box1111">
+                <span class="chicken">Fried Rice</span>
+              </div>
+              <div id="sec5box1112" >N2000</div>
+            </div>
+            <div id="sec5box112">
+              <small>Fried rice </small>
+            </div>
+          </div>
+        </div>
+      </article>
+     </section>
+     <section id="sec6" data-aos="zoom-in-up">
+      <form id="sec6-inner">
+        <div id="sec6box">
+          <div class="sec6box">
+            <h6 id="Reservation">Reservation</h6>
+            <h1 id="booking">BOOK A TABLE ONLINE</h1>
+          </div>
+          <div class="sec6box"></div>
+        </div>
+        <div class="sec6box1">
+          <input type="text" placeholder="Your Name">
+        </div>
+        <div class="sec6box1">
+          <input type="email" placeholder="Your Email">
+        </div>
+        <div class="sec6box1">
+          <input type="date" placeholder="Date & Time">
+        </div>
+        <div class="sec6box1">
+          <select name="" id="name">
+            <option value="">number of people</option>
+            <option value="">2 people</option>
+            <option value="">3 people</option>
+            <option value="">4 people</option> 
+          </select>
+        </div>
+        <div id="sec6box1">
+          <textarea name="" id="Special" placeholder="Special Request"></textarea>
+        </div>
+        <button>BOOK NOW</button>
+
+      </form>
+     </section>
+     <section id="sec7" data-aos="zoom-in-left">
+      <article id="sec7-inner">
+        <div class="sec7box">
+          <div id="sec7box"><h4>Company</h4></div>
+          <div class="sec7box1">About Us</div>
+          <div class="sec7box1">Contact Us</div>
+          <div class="sec7box1">Reservation</div>
+          <div class="sec7box1">Privacy Policy</div>
+          <div class="sec7box1">Terms & Condition</div>
+        </div>
+        <div class="sec7box">
+          <div id="sec7box"><h4>Contact</h4></div>
+          <div class="sec7box1">123 Street,New York, USA</div>
+          <div class="sec7box1">+2347071503641</div>
+          <div class="sec7box1">dimakunnechinedu@gmail.com</div>
+        </div>
+        <div class="sec7box">
+          <div id="sec7box"><h4>Opening</h4></div>
+           <div class="sec7box1">Monday-Saturday</div>
+          <div class="sec7box1">9am-9pm</div>
+          <div class="sec7box1">Sunday</div>
+          <div class="sec7box1">10am-8pm</div>
+        </div>
+        <div class="sec7box">
+          <div id="sec7box">Newsletter</div>
+          <div class="sec7box1">
+            <p>Send an email and sign up </p>
+          </div>
+          <div id="sec7box1">
+          <div id="sec7box8">
+            <input type="email" placeholder="Your email" id="emaill">
+            
+            <div id="sign">
+                <span><button id="buttonsign">Signup</button></span>
+
+            </div>
+
+          </div>
+          
+          </div>
+        </div>
+      </article>
+     </section>
+        </main>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+         <script>
+             AOS.init();
+         </script>
 
     <script src="js/script.js"></script>
 </body>
