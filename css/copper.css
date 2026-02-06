@@ -330,6 +330,7 @@
     width: 98%;
     padding: 5%;
     margin: 1%;
+    resize: vertical;
 }
 
 
@@ -389,6 +390,7 @@
 
 }.image-menu{
     width: 100%;
+    border-radius: 10px;
 }
 #sec6{
     width: 100%;
